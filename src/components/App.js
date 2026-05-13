@@ -7,7 +7,7 @@ import { useState } from "react";
 const App = () => {
    const [Text, setText] = useState('')
   return (
-    <div style={{backgroundColor:"green",height:"100vh", paddingTop:"30px" , paddingLeft:"20px"}} class='lift'>
+    <div style={{backgroundColor:"green",height:"100vh", paddingTop:"30px" , paddingLeft:"20px",marginTop:"20px"}} className='parent'>
       <h1>Parent Component</h1>
         <Child1 setText={setText}/>
         <Child2 setText={setText} />
